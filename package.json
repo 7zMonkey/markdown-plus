@@ -1,0 +1,33 @@
+{
+  "name": "markdown-plus",
+  "version": "1.0.0",
+  "description": "Markdown plus is a Markdown extension editor/parser, but I haven't figured out exactly what he should do yet.  In theory, it is an editor, but I also need a parser to parse markdowns, so it may also be a parser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "prepare": "husky install",
+    "dev": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7zMonkey/markdown-plus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7zMonkey/markdown-plus/issues"
+  },
+  "homepage": "https://github.com/7zMonkey/markdown-plus#readme",
+  "lint-staged": {
+    "*.js": "prettier --write"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "mocha": "^10.2.0",
+    "prettier": "^2.8.8"
+  }
+}
